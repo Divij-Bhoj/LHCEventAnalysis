@@ -8,7 +8,7 @@
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements an **event analysis pipeline** inspired by workflows at the Large Hadron Collider (LHC). It demonstrates:
 
@@ -30,7 +30,7 @@ CERN Technical Students work on **real-world software challenges** in high-energ
 
 ---
 
-## 🔬 Physics Motivation
+## Physics Motivation
 
 ### Z Boson Analysis (Z → μμ)
 
@@ -59,7 +59,7 @@ Top quarks are the heaviest known particles. The semi-leptonic decay channel off
 
 ---
 
-## 🏗️ Software Architecture
+## Software Architecture
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -90,7 +90,7 @@ Top quarks are the heaviest known particles. The semi-leptonic decay channel off
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -173,7 +173,7 @@ ls bin/
 
 ---
 
-## 📊 Usage
+## Usage
 
 ### Workflow Overview
 
@@ -288,7 +288,7 @@ root [3] h->Fit("gaus", "", "", 85, 97)
 
 ---
 
-## 📈 Expected Results
+## Expected Results
 
 ### Z Boson Mass Reconstruction
 
@@ -313,7 +313,7 @@ root [3] h->Fit("gaus", "", "", 85, 97)
 
 ---
 
-## 🔍 Code Structure
+## Code Structure
 
 ### Core Classes
 
@@ -351,7 +351,7 @@ root [3] h->Fit("gaus", "", "", 85, 97)
 
 ---
 
-## ⚡ Performance Optimization
+## Performance Optimization
 
 ### Techniques Demonstrated
 
@@ -393,7 +393,7 @@ gprof ./RunAnalysis gmon.out > profile.txt
 
 ---
 
-## 🧪 Testing & Validation
+## Testing & Validation
 
 ### Physics Validation
 
@@ -425,7 +425,7 @@ clang-format -i src/*.cpp include/*.h
 
 ---
 
-## 🛠️ Extending the Project
+## Extending the Project
 
 ### Adding a New Analysis
 
@@ -460,7 +460,7 @@ To adapt for real LHC data (e.g., CERN Open Data):
 
 ---
 
-## 📚 Learning Resources
+## Learning Resources
 
 ### C++ & ROOT
 - [ROOT Primer](https://root.cern/primer/)
@@ -478,7 +478,7 @@ To adapt for real LHC data (e.g., CERN Open Data):
 
 ---
 
-## 📝 Project Metadata
+## Project Metadata
 
 - **Author**: Divij Bhoj
 - **Purpose**: CERN Technical Studentship Application Portfolio
@@ -505,7 +505,7 @@ MIT License [license]
 
 Educational use encouraged. If used in academic work, please cite:
 ```
-Divij-Bhoj (2026). High-Performance LHC Event Analysis Pipeline.
+DIVIJ NANJIBHAI BHOJ (2026). High-Performance LHC Event Analysis Pipeline.
 GitHub: https://github.com/Divij-Bhoj/LHCEventAnalysis
 ```
 
