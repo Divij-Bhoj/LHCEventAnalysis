@@ -1,0 +1,80 @@
+# Build directories
+build/
+bin/
+lib/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Compiled files
+*.o
+*.so
+*.a
+*.exe
+*.dll
+*.dylib
+
+# ROOT files (data - too large for git)
+*.root
+*.pcm
+*.d
+
+# Data and results - keep structure but not files
+data/*.root
+data/*.pdf
+data/*.png
+results/*.root
+results/*.png
+results/*.pdf
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS specific
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+*.egg
+
+# Profiling and debugging
+gmon.out
+perf.data*
+*.log
+callgrind.out*
+cachegrind.out*
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Package files
+*.tar.gz
+*.zip
+*.7z
+
+# Keep directory structure
+!data/.gitkeep
+!results/.gitkeep
