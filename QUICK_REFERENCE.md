@@ -209,20 +209,3 @@ source ~/cern-workspace/root/bin/thisroot.sh
 export FASTJET_DIR=~/cern-workspace/fastjet-install
 export LD_LIBRARY_PATH=$FASTJET_DIR/lib:$LD_LIBRARY_PATH
 ```
-
-## Contact Checklist for Application
-
-When submitting to CERN, include:
-- ✅ GitHub repository link
-- ✅ Brief project description (2-3 sentences)
-- ✅ Key technical achievements
-- ✅ Performance metrics
-- ✅ Your role (sole developer)
-
-**Example:**
-> "GitHub Portfolio: https://github.com/Divij-Bhoj/LHCEventAnalysis
-> 
-> Developed a C++17/ROOT analysis pipeline for simulated LHC events, 
-> implementing Z→μμ and tt̄ reconstruction with 3.3x parallelization 
-> speedup. Processed 50k events at 18k events/sec demonstrating 
-> proficiency in HEP software tools."
