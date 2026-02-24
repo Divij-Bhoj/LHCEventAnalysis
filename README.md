@@ -29,6 +29,9 @@ CERN Technical Students work on **real-world software challenges** in high-energ
 ✅ **Professional workflows** (CMake, version control, documentation)
 
 ---
+> **See also:** [LHC-data-pipeline](https://github.com/Divij-Bhoj/LHC-data-pipeline) — my data pipeline (Python/C++/Kafka) that complements this project.
+
+---
 
 ## Physics Motivation
 
