@@ -1,0 +1,38 @@
+name: C++ Analysis CI (ROOT)
+
+on:
+  push:
+    branches: [ master, main ]
+  pull_request:
+    branches: [ master, main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: rootproject/root:latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Install dependencies
+      run: |
+        apt-get update
+        apt-get install -y cmake build-essential wget
+        
+    - name: Install FastJet (Minimal)
+      run: |
+        # Download and install FastJet 3.4
+        wget http://fastjet.fr/repo/fastjet-3.4.1.tar.gz
+        tar -zxf fastjet-3.4.1.tar.gz
+        cd fastjet-3.4.1
+        ./configure --prefix=/usr/local
+        make -j$(nproc)
+        make install
+
+    - name: Build Project
+      run: |
+        mkdir build && cd build
+        cmake .. -DCMAKE_BUILD_TYPE=Release
+        make -j$(nproc)
+
+    - name: Run Smoke Test (Event Generation)
+      run: ./build/GenerateEvents 100

@@ -84,6 +84,17 @@ int main(int argc, char** argv) {
     // Print performance summary
     timer.printSummary();
     
+    // Print analysis summary
+    std::cout << "\n=== Z Analysis Summary ===" << std::endl;
+    std::cout << "Events processed: " << zAnalysis.nEventsProcessed() << std::endl;
+    std::cout << "Events passed:    " << zAnalysis.nEventsPassed() << std::endl;
+    std::cout << "Efficiency:       " << zAnalysis.efficiency() * 100.0 << "%" << std::endl;
+    
+    std::cout << "\n=== Top Analysis Summary ===" << std::endl;
+    std::cout << "Events processed: " << topAnalysis.nEventsProcessed() << std::endl;
+    std::cout << "Events passed:    " << topAnalysis.nEventsPassed() << std::endl;
+    std::cout << "Efficiency:       " << topAnalysis.efficiency() * 100.0 << "%" << std::endl;
+    
     std::cout << "\nAnalysis complete!" << std::endl;
     std::cout << "Processing rate: " 
               << static_cast<double>(nProcessed) / timer.elapsed("event_loop")

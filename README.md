@@ -1,10 +1,11 @@
 # High-Performance LHC Event Analysis Pipeline
 
-**A C++17/ROOT framework for simulated particle physics analysis, demonstrating software engineering skills aligned with CERN Technical Studentship expectations.**
-
+![Build Status](https://github.com/Divij-Bhoj/LHCEventAnalysis/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/github/license/Divij-Bhoj/LHCEventAnalysis)
 [![C++17](https://img.shields.io/badge/C++-17-blue.svg)](https://isocpp.org/)
 [![ROOT](https://img.shields.io/badge/ROOT-6.30-orange.svg)](https://root.cern/)
 [![CMake](https://img.shields.io/badge/CMake-3.12+-green.svg)](https://cmake.org/)
+
 
 ---
 
